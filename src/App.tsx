@@ -7,6 +7,7 @@ import Navbar from './Navbar';
 import Podcast from './pages/Podcast';
 import Home from './pages/Home';
 import MoviesListed from './pages/MoviesListed';
+import MovieTable from './movie/MovieTable';
 
 // Part 1
 // class Welcome extends React.Component {
@@ -65,7 +66,7 @@ function App() {
       component = <Podcast />;
       break;
     case '/movieList':
-      component = <MovieList />;
+      component = <MovieTable />;
       break;
   }
   return (
